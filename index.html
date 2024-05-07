@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="pixelstrap">
+    <link rel="icon" href="assets/images/logo/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png" type="image/x-icon">
+    <title>ETG GEN - AI</title>
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <!-- ico-font-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/icofont.css">
+    <!-- Themify icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/themify.css">
+    <!-- Flag icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/flag-icon.css">
+    <!-- Feather icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/feather-icon.css">
+    <!-- Plugins css start-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/animate.css">
+    <!-- Plugins css Ends-->
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/bootstrap.css">
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link id="color" rel="stylesheet" href="assets/css/color-1.css" media="screen">
+    <!-- Responsive css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  </head>
+  <body oncontextmenu="return false;"> 
+    <!-- loader starts-->
+    <div class="loader-wrapper">
+      <div class="loader-index"> <span></span></div>
+      <svg>
+        <defs></defs>
+        <filter id="goo">
+          <fegaussianblur in="SourceGraphic" stddeviation="11" result="blur"></fegaussianblur>
+          <fecolormatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"> </fecolormatrix>
+        </filter>
+      </svg>
+    </div>
+    <!-- loader ends-->
+    <!-- tap on top starts-->
+    <div class="tap-top"><i data-feather="chevrons-up"></i></div>
+    <!-- tap on tap ends-->
+    <!-- page-wrapper Start-->
+    <div class="page-wrapper compact-wrapper" id="pageWrapper">
+      <!-- Page Header Start-->
+      <div class="page-header">
+        <div class="header-wrapper row m-0">
+          
+          <div class="header-logo-wrapper col-auto p-0">
+            <div class="logo-wrapper"><a href="index.html"><img class="img-fluid for-light" src="assets/images/logo/logo.png" alt="" width="150px"><img class="img-fluid for-dark" src="assets/images/logo/logo.png" alt="" width="150px"></a></div>
+            <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="align-center"></i></div>
+          </div>
+          <div class="left-header col-xxl-5 col-xl-6 col-lg-5 col-md-4 col-sm-3 p-0">
+            
+          </div>
+          <div class="nav-right col-xxl-7 col-xl-6 col-md-7 col-8 pull-right right-header p-0 ms-auto">
+            <ul class="nav-menus">
+              
+              
+              <li class="onhover-dropdown">
+                <div class="notification-box">
+                  <i data-feather="bell"> </i>  <span class="badge rounded-pill badge-secondary">4 </span>
+                </div>
+                <div class="onhover-show-div notification-dropdown">
+                  <h6 class="f-18 mb-0 dropdown-title">Notitications                               </h6>
+                  <ul>
+                    <li class="b-l-primary border-4">
+                      <p>Delivery processing <span class="font-danger">10 min.</span></p>
+                    </li>
+                    <li class="b-l-success border-4">
+                      <p>Order Complete<span class="font-success">1 hr</span></p>
+                    </li>
+                    <li class="b-l-secondary border-4">
+                      <p>Tickets Generated<span class="font-secondary">3 hr</span></p>
+                    </li>
+                    <li class="b-l-warning border-4">
+                      <p>Delivery Complete<span class="font-warning">6 hr</span></p>
+                    </li>
+                    <li><a class="f-w-700" href="#">Check all</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="profile-nav onhover-dropdown pe-0 py-0">
+                <div class="media profile-media"><img class="b-r-10" src="assets/user.png" alt="" width="32px">
+                  <div class="media-body"><span>RATHNA PRIYA A</span>
+                    <p class="mb-0">Admin <i class="middle fa fa-angle-down"></i></p>
+                  </div>
+                </div>
+                <ul class="profile-dropdown onhover-show-div">
+                  
+                  <li><a href="login.html"><i data-feather="log-out"> </i><span>Log out</span></a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        
+        </div>
+      </div>
+      <!-- Page Header Ends  -->
+      <!-- Page Body Start-->
+      <div class="page-body-wrapper">
+        <!-- Page Sidebar Start-->
+        <div class="sidebar-wrapper" data-sidebar-layout="stroke-svg">
+          <div>
+            <div class="logo-wrapper"><a href="index.html"><img class="img-fluid for-light" src="assets/images/logo/logo.png" width="150px" alt=""><img class="img-fluid for-dark" src="assets/images/logo/logo.png" alt="" width="150px"></a>
+              <div class="back-btn"><i class="fa fa-angle-left"></i></div>
+              <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="grid"> </i></div>
+            </div>
+            <div class="logo-icon-wrapper"><a href="index.html"><img class="img-fluid" src="assets/images/logo/logo-icon.png" alt=""></a></div>
+            <nav class="sidebar-main">
+              <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
+              <div id="sidebar-menu">
+                <ul class="sidebar-links" id="simple-bar">
+                  <li class="back-btn"><a href="index.html"><img class="img-fluid" src="assets/images/logo/logo-icon.png" alt=""></a>
+                    <div class="mobile-back text-end"><span>Back</span><i class="fa fa-angle-right ps-2" aria-hidden="true"></i></div>
+                  </li>
+                 
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="index.html">
+                      <i data-feather="home"> </i><span>Dashboard</span></a>
+                  </li>
+                 <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="about.html">
+                      <i data-feather="file"> </i><span>About</span></a>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="idea.html">
+                      <i data-feather="cloud-drizzle"> </i><span>Ideas</span></a>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="document.html">
+                      <i data-feather="folder-plus"> </i><span>Documents</span></a>
+                  </li>
+                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="contactus.html">
+                      <i data-feather="phone-call"> </i><span>Contact Us</span></a>
+                  </li>
+
+                </ul>
+              </div>
+              <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
+            </nav>
+          </div>
+        </div>
+        <!-- Page Sidebar Ends-->
+        <div class="page-body">
+          <div class="container-fluid">        
+            <div class="page-title">
+              <div class="row">
+                <div class="col-6">
+                  <h4> ETG GEN-AI  - Dashboard </h4>
+                </div>
+                <div class="col-6">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">                                       
+                        <i data-feather="home"> </i></a></li>
+                    <li class="breadcrumb-item">Dashboard</li>
+                    <!-- <li class="breadcrumb-item active">Default      </li> -->
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container-fluid starts-->
+          <div class="container-fluid">
+            <div class="row widget-grid">
+              <div class="col-lg-6">
+                <div class="card">
+                  <div class="card-header">
+                    <h5>GENERATIVE AI INITIATIVES</h5>
+                  </div>
+                  <div class="card-body ">
+                     <div class="carousel slide" id="carouselExampleControls" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="d-flex flex-column justify-content-between">
+                            <div>
+                              <h3>Title</h3>
+                              <h6>Topic: Gen AI in company process</h6>    
+                            </div>
+                            <div>
+                              <a href="#." class="btn btn-pill btn-primary mt-5"> View </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item ">
+                          <div class="d-flex flex-column justify-content-between">
+                            <div>
+                              <h3>Title</h3>
+                              <h6>Topic: Gen AI in company process</h6>    
+                            </div>
+                            <div>
+                              <a href="#." class="btn btn-pill btn-primary mt-5"> View </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item ">
+                          <div class="d-flex flex-column justify-content-between">
+                            <div>
+                              <h3>Title</h3>
+                              <h6>Topic: Gen AI in company process</h6>    
+                            </div>
+                            <div>
+                              <a href="#." class="btn btn-pill btn-primary mt-5"> View </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="card">
+                  <div class="card-header">
+                    <h5>ACHIEVED AUTOMATIONS</h5>
+                    
+                  </div>
+                  <div class="card-body">
+                    <div class="d-flex flex-column justify-content-between">
+                      <div>
+                        <h3>Title</h3>
+                        <h6>Topic: Gen AI in company process</h6>    
+                      </div>
+                      <div>
+                        <a href="#." class="btn btn-pill btn-primary mt-5"> View All</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="p-2">
+                  <div class="carousel carousel-dark slide" id="carouselExampleDark" data-bs-ride="carousel" >
+                    <div class="carousel-indicators">
+                      <button class="active" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000"><img class="d-block w-100" src="assets/images/slider.jpg" width="250px" alt="drawing-room">
+                        <div class="carousel-caption d-none d-md-block carousel-opacity">
+                          <h5>How updates are diploid in SDV Cars</h5>
+                          
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000"><img class="d-block w-100" src="assets/images/slider.jpg" width="250px" alt="drawing-room">
+                        <div class="carousel-caption d-none d-md-block carousel-opacity">
+                          <h5>How updates are diploid in SDV Cars</h5>
+                          
+                        </div>
+                      </div>
+                      <div class="carousel-item"><img class="d-block w-100" src="assets/images/slider.jpg" width="250px" alt="drawing-room">
+                        <div class="carousel-caption d-none d-md-block carousel-opacity">
+                          <h5>How updates are diploid in SDV Cars</h5>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="card">
+                  <div class="card-header">
+                    <h5>New Interesting Ideas Given</h5>
+                  </div>
+                  <div class="card-body">
+                    <div class="d-flex flex-column justify-content-between">
+                            <div>
+                              <div class="d-flex gap-2">
+                                <div class="img"><img src="assets/user.png" width="64"> </div>
+                                <div class="details">
+                                  <h4>Emp name</h4>
+                                  <h6>Topic: Gen AI in company process</h6>    
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div>
+                              <a href="#." class="btn btn-pill btn-primary mt-5"> View Idea </a>
+                            </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container-fluid Ends-->
+        </div>
+        <!-- footer start-->
+        <footer class="footer">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12 footer-copyright text-center">
+                <p class="mb-0">Copyright 2024 © Pricol<br> Developed by @Pricol-IT Team, Version 1.0 </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- latest jquery-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap js-->
+    <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- feather icon js-->
+    <script src="assets/js/icons/feather-icon/feather.min.js"></script>
+    <script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+    <!-- scrollbar js-->
+    <script src="assets/js/scrollbar/simplebar.js"></script>
+    <script src="assets/js/scrollbar/custom.js"></script>
+    <!-- Sidebar jquery-->
+    <script src="assets/js/config.js"></script>
+    <!-- Plugins JS start-->
+    <script src="assets/js/sidebar-menu.js"></script>
+    <!-- <script src="assets/js/sidebar-pin.js"></script> -->
+    
+    <script src="assets/js/slick/slick.min.js"></script>
+    <script src="assets/js/slick/slick.js"></script>
+    <script src="assets/js/header-slick.js"></script>
+    <script src="assets/js/notify/bootstrap-notify.min.js"></script>
+    <!-- <script src="assets/js/dashboard/default.js"></script> -->
+    
+    <script src="assets/js/height-equal.js"></script>
+    <script src="assets/js/animation/wow/wow.min.js"></script>
+    <!-- Plugins JS Ends-->
+    <!-- Theme js-->
+    <script src="assets/js/script.js"></script>
+    
+    <!-- <script>new WOW().init();</script> -->
+  </body>
+</html>
